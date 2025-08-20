@@ -35,4 +35,11 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--Blue-950-mainBG);
+}
+
+.card {
+    background: var(--Blue-900-cardBG);
+    margin: 30px 10px;
+    border-radius: 16px;
 }
