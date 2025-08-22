@@ -61,3 +61,34 @@ body {
     overflow: hidden;
     object-fit: contain;
 }
+
+.main-card {
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--Blue-800-line);
+    padding-bottom: 24px;
+}
+
+.main-card h3 {
+    color: var(--White);
+    font-size: var(--font-size);
+    margin: 12px 0 16px 0;
+}
+
+.main-card p {
+    color: rgb(88 109 139);
+    margin-bottom: 24px;
+}
+
+.main-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethereum {
+    color: var(--Cyan-400);
+    margin-left: 8px;
+}
+.clock {
+    color: rgb(88 109 139);
+    margin-left: 8px;
+}
