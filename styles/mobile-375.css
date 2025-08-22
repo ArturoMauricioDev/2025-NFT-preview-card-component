@@ -40,6 +40,8 @@ body {
 
 .card {
     background: var(--Blue-900-cardBG);
-    margin: 30px 10px;
+    width: 90%;
+    margin: 40px auto;
     border-radius: 16px;
+    overflow: hidden;
 }
