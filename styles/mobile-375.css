@@ -39,13 +39,15 @@
 body {
     background: var(--Blue-950-mainBG);
     padding-top: 36px;
+    height: 100dvh;
 }
 
 .card {
     background: var(--Blue-900-cardBG);
     width: 90%;
     margin: 0 auto;
-    min-width: 350px;
+    max-width: 350px;
+    max-height: 585px;
     border-radius: 16px;
     overflow: hidden;
     padding: 24px 24px 12px;
